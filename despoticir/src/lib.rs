@@ -1,14 +1,23 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+#![allow(non_snake_case)]
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+pub mod cloud;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+/// Placeholder struct
+#[derive(Debug)]
+pub struct Composition;
+
+/// Placeholder struct
+#[derive(Debug)]
+pub struct DustProp;
+
+/// Placeholder struct
+#[derive(Debug)]
+pub struct Radiation;
+
+/// Placeholder struct
+#[derive(Debug)]
+pub struct Emitter;
+
+/// Placeholder struct
+#[derive(Debug)]
+pub struct ChemNetwork;
